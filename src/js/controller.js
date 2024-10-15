@@ -120,6 +120,11 @@ const controlAddRecipe = async function (newRecipe) {
 
   //upload new recipe data
 };
+
+const newFeature = function () {
+  console.log('GAY');
+};
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
   recipeView.addHandlerRender(controlRecipes);
@@ -128,6 +133,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   recipeView.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newFeature();
 };
 
 init();
