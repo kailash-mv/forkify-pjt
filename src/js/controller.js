@@ -122,7 +122,7 @@ const controlAddRecipe = async function (newRecipe) {
 };
 
 const newFeature = function () {
-  console.log('GAY');
+  console.log('Welcome');
 };
 
 const init = function () {
